@@ -70,6 +70,7 @@
   color: white;
   font-size: 16px;
   font-family: helvetica, sans-serif;
+  text-align: center;
 }
 .button {
     position: absolute;
@@ -141,6 +142,39 @@ button:hover {
     max-width: 25%;
     padding: 0;
     text-align: center;
-    color:rgba(0, 153, 255, 0.459);
+    color:rgb(28, 119, 204);
     cursor: pointer;
+}
+.serice-title {
+    font-size: 20px;
+   
+}
+.service-desc {
+    color: black;
+}
+.service-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(28, 119, 204);
+    margin-bottom: 12px;
+}
+.service-icon i{
+    display: table-cell;
+    vertical-align: middle;
+}
+.gg-smartphone {
+    left: 18px;
+    top: 15px;
+}
+.gg-mail {
+    left: 16px;
+    top: 18px;
+}
+.gg-browse {
+    left: 18px;
+    top: 16px;
 }
