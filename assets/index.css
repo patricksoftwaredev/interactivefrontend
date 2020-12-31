@@ -1,10 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+ margin: 0;
+ padding: 0;
+ background-image: url("../img/image\ \(2\).jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 .banner {
-    background-color:black;
+ max-width: 1200px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ flex-wrap: wrap;
 }
+
 .navbar {
  overflow: hidden;
  padding: 0px 16px;
@@ -13,10 +22,11 @@
  margin: auto;
 }
 .navbar ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 0;
-    text-decoration-thickness: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 .navbar ul li {
     display: inline-block;
@@ -28,7 +38,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background:black;
+    background:#08B6CE;
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -37,20 +47,6 @@
 .navbar ul li:hover::after {
     width: 100%;
 }
-.container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-}
-.img {
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    opacity: 0.5;
-    background-image: url("../img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg"); 
-    background-size: cover;
-}
-
 .heading {
   position: absolute;
   top: 40%;
@@ -107,37 +103,34 @@ button:hover span {
 button:hover {
     border: none;
 }
-.banner2 {
-    background-color: snow;
-    box-sizing: border-box;
-
-}
-.features h1 {
-    color: black;
+.features {
+    color: white;
     text-decoration: none;
-    position: relative;
+    position: absolute;
     display: inline-block;
     left: 40%;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
-.features h1::after {
+.features {
     content: '';
     height: 3px;
     width: 0;
     background: #08B6CE;
-    position: absolute;
+    position: relative;
     bottom: -5px;
     left: 0;
     transition: 0.5s;
 }
-.features h1:hover::after {
+.features :hover::after {
     width: 100%;
 }
 .service-container {
+    
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .service-box {
     max-width: 25%;
@@ -151,11 +144,21 @@ button:hover {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: -15px;
+}
+.service-title:after {
+    content: '';
+    background: #08B6CE;
+    display: block;
+    width: 150px;
+    height: 2px;
+    margin: 10px auto;
 }
 .service-desc {
-    color: black;
+    color: white;
     text-size-adjust: 70%;
     font-family: helvetica, sans-serif;
+    font-size: 15px;
 }
 .service-icon {
     display: inline-block;
