@@ -81,29 +81,22 @@ button {
     padding: 15px 0;
     font-weight: bold;
     border: 2px solid #08B6CE;
-    background: transparent;
     color: white;
     cursor: pointer;
     position: relative;
-    overflow: hidden;
+    transition: 0.5s linear;
+    
 } 
-span {
+.button:hover {
     background: #08B6CE;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
+    color: white;
 }
-button:hover span {
-    width: 100%;
+
+.column {
+    position: relative;
+    top: 600px;
 }
-button:hover {
-    border: none;
-}
-.features {
+.features h1 {
     color: white;
     text-decoration: none;
     position: absolute;
@@ -111,22 +104,19 @@ button:hover {
     left: 40%;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+    overflow: hidden;
+    top: -30px;
 }
-.features {
+.features h1:after {
     content: '';
-    height: 3px;
-    width: 0;
     background: #08B6CE;
-    position: relative;
-    bottom: -5px;
-    left: 0;
-    transition: 0.5s;
+    display: block;
+    width: 170px;
+    height: 2.5px;
+    margin: 10px auto;
 }
-.features :hover::after {
-    width: 100%;
-}
+  
 .service-container {
-    
     position: relative;
     display: flex;
     justify-content: center;
