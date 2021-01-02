@@ -30,6 +30,7 @@ body {
  overflow: hidden;
  box-shadow: 0 0 7px #08B6CE;
  cursor: pointer;
+ margin-bottom: 120%;
 }
 .table h2 {
  text-transform: uppercase; 
@@ -111,4 +112,52 @@ body {
 }
 .navbar ul li:hover::after {
     width: 100%;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq-container {
+    width: 100%;
+    max-width: 80rem;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.faq-heading h1 {
+     color: white;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    left: 39%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    overflow: hidden;
+    top:-50%;
+}
+.faq-heading h1:after{
+     content: '';
+    background: #08B6CE;
+    display: block;
+    width: 200px;
+    height: 2.5px;
+    margin: 10px auto;
+}
+.accordion-item {
+    background-color: #283042;
+    border-radius: 0.4rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #08B6CE;
+}
+.accordion-links {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #08B6CE;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
