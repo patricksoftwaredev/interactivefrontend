@@ -134,7 +134,7 @@ section {
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     overflow: hidden;
-    top:-50%;
+    top:-40%;
 }
 .faq-heading h1:after{
      content: '';
@@ -151,13 +151,53 @@ section {
     padding: 10px;
     box-shadow: 0 0 5px #08B6CE;
 }
-.accordion-links {
+.accordion-link {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: white;
     text-decoration: none;
-    background-color: #08B6CE;
+    background-color: #283042;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0;
+}
+.accordion-link i{
+    color: #08B6CE;
+    padding: 5px;
+}
+.accordion-link .gg-remove {
+    display: none;
+}
+.answer {
+    overflow: hidden;
+    max-height: 0;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+.answer::before {
+    position: absolute;
+    width: 6px;
+    content: "";
+    height: 90%;
+    background-color: #08B6CE;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.answer p {
+    font-size: 18px;
+    color: #08B6CE;
+    padding: 20px;
+}
+.accordion-item:target .answer {
+    max-height: 20rem;
+}
+.accordion-item:target .accordion-link .gg-add {
+    display: none;
+}
+.accordion-item:target .accordion-link .gg-remove {
+    display: block;
 }
