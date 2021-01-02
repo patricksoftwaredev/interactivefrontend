@@ -1,7 +1,7 @@
 body{
  margin: 0;
  padding: 0;
- background-image: url("../img/image\ \(2\).jpg");
+ background-image: url("../img/image\ \(4\).jpg");
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -59,7 +59,7 @@ body{
 }
 .sub-heading {
   position: absolute;
-  top: 50%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -68,28 +68,34 @@ body{
   text-align: center;
   cursor: pointer;
 }
-.button {
-    position: absolute;
-    top: 61%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 button {
-    width:200px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
-    padding: 15px 0;
     font-weight: bold;
     border: 2px solid #08B6CE;
+    background: transparent;
     color: white;
     cursor: pointer;
     position: relative;
-    transition: 0.5s linear;
-    
-} 
-.button:hover {
+    overflow: hidden;
+   text-transform: uppercase;
+}
+span {
     background: #08B6CE;
-    color: white;
+    height: 100%;
+    width:0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span {
+    width: 100%;
 }
 
 .column {
@@ -134,7 +140,7 @@ button {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: -15px;
+    margin-bottom: -25px;
 }
 .service-title:after {
     content: '';
