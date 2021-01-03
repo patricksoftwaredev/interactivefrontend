@@ -1,0 +1,112 @@
+body {
+    background: url("../img/image\ \(7\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+.navbar {
+ overflow: hidden;
+ padding: 0px 16px;
+ display: flex;
+ width: 85%;
+}
+.navbar ul li a {
+    color: white;
+    width: 0;
+    text-decoration: none;
+    padding: 0;
+    text-decoration-thickness: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    position: relative;
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#08B6CE;
+    width: 0;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+.contact-container {
+ max-width: 1200px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ flex-wrap: wrap;
+}
+.contact-container h1 {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    left: 40%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    overflow: hidden;
+    top: 150px;
+    
+}
+.contact-container h1:after {
+    content: '';
+    background: #08B6CE;
+    display: block;
+    width: 170px;
+    height: 2.5px;
+    margin: 10px auto;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    position: relative;
+    top: 200px;
+}
+.contact-form-text {
+    display: block;
+    width: 800px;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: white;
+    padding: 20px 40px;
+    outline: none;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px 10px;
+    font-size: 16px;
+}
+.contact-form-text:hover {
+    box-shadow: 0 0 5px #08B6CE;
+}
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #08B6CE;
+    color: white;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}

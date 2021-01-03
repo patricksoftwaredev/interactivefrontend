@@ -117,6 +117,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 .faq-container {
     width: 100%;
@@ -188,9 +189,10 @@ section {
     transform: translateY(-50%);
 }
 .answer p {
-    font-size: 18px;
-    color: #08B6CE;
+    font-size: 16px;
+    color: white;
     padding: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 .accordion-item:target .answer {
     max-height: 20rem;
