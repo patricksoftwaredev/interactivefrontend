@@ -1,9 +1,10 @@
 body {
  margin: 0;
  padding: 0;
- background-image: url("../img/image\ \(1\).jpg");
+ background-image: url("../img/image\ \(8\).jpg");
  background-repeat: no-repeat;
  background-size: cover;
+ background-attachment: fixed;
 }
 .navbar {
  overflow: hidden;
@@ -37,4 +38,139 @@ body {
 }
 .navbar ul li:hover::after {
     width: 100%;
+}
+.specs-heading {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    left: 42%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 35px;
+    top: 20%;
+}
+.specs-heading:after {
+    content: '';
+    background: #08B6CE;
+    display: block;
+    width: 170px;
+    height: 2.5px;
+    margin: 10px auto;
+}
+.specs-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.specs {
+    flex: 50%;
+    padding: 10px;
+    max-width: 520px;
+    box-sizing: border-box;
+}
+.specs-box {
+    background: snow;
+    padding: 40px 40px;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px #08B6CE;
+    color: black;
+    top: 70%;
+}
+.specs-box h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+.specs-box h2:after {
+    content: '';
+    background: #08B6CE;
+    display: block;
+    width: 150px;
+    height: 2px;
+    margin: 10px auto;
+    align-items: center;
+}
+.specs-box-desc {
+    padding: 20px 0;
+}
+.specs-box-icon {
+    float: right;
+}
+.gg-list {
+    top: -17px;
+}
+.service-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.service-box {
+    max-width: 25%;
+    padding: 0;
+    text-align: center;
+    color:#08B6CE;
+    cursor: pointer;
+    position: relative;
+    top: 450px;
+}
+.service-title {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -25px;
+}
+.service-title:after {
+    content: '';
+    background: #08B6CE;
+    display: block;
+    width: 150px;
+    height: 2px;
+    margin: 10px auto;
+}
+.service-desc {
+    color: white;
+    font-family: helvetica, sans-serif;
+    font-size: 1em;
+}
+.service-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+.service-icon i{
+    display: table-cell;
+    vertical-align: middle;
+}
+.gg-smartphone {
+    left: 18px;
+    top: 15px;
+}
+.gg-mail {
+    left: 16px;
+    top: 18px;
+}
+.gg-browse {
+    left: 17px;
+    top: 15px;
+}
+.gg-dollar {
+    left: 23px;
+    top: 16px;
 }

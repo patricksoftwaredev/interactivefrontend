@@ -150,7 +150,7 @@ section {
     border-radius: 0.4rem;
     margin-bottom: 10px;
     padding: 10px;
-    box-shadow: 0 0 5px #08B6CE;
+    box-shadow: 0 0 3px #08B6CE;
 }
 .accordion-link {
     font-family: 'Montserrat', sans-serif;
