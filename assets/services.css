@@ -174,3 +174,23 @@ body {
     left: 23px;
     top: 16px;
 }
+.features h1 {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    left: 42%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    overflow: hidden;
+    top: 190%;
+    
+}
+.features h1:after {
+    content: '';
+    background: #08B6CE;
+    display: block;
+    width: 170px;
+    height: 2.5px;
+    margin: 10px auto;
+}
