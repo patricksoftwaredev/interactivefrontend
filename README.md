@@ -1,45 +1,68 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+The project can be viewed here: https://d25897a0-9d30-4013-adbb-ee239798adc2.ws-eu03.gitpod.io/#/workspace/interactivefrontend
 
-Welcome patricksoftwaredev,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is the main website of SalesLabs. It's created to  navigate potential customers throughout the site.
 
-## Gitpod Reminders
+USER EXPERIENCE:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+(User Stories):
 
-`python3 -m http.server`
+-First time visitor goals: As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-A blue button should appear to click: *Make Public*,
+-Returning visitor goals: As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-Another blue button should appear to click: *Open Browser*.
+-Frequent visitor goals: As a frequent visitor, I want to be able to come back to the website to sign up to use our B2B sales communication method to decision makers.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+(Design):
 
-A blue button should appear to click: *Make Public*,
+-Colors: The website contains 3 main colors. turquise, White and a dark background.
 
-Another blue button should appear to click: *Open Browser*.
+-Typography: The website was written mainly with Montserrat, helvetica and Sans-Serif.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-Imagery: Background images of office environments were used.
 
-## Updates Since The Instructional Video
+FEATURES:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+(Languages Used):
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-HTML5 -CSS3 -JS
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+(Frameworks, Libraries and Programs used):
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-Hover.CSS: Hover.CSS was used on submit buttons and Social Media Icons to add the float transition while being hovered over
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-Github: GitHub is used to store the projects code after being pushed from Git.
 
---------
+TESTING:
 
-Happy coding!
+w3c Validator.
+
+-First time visitor goals: As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation. Once Users open up the website they will see the features we offer and how our software worls to reassure them about our offering.
+
+As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content. The site has clear navigation bars to guide the user throughout the website.
+
+-Returning visitr goals: As a Returning visitor I want to be able to find out more information on how the software works and our pricing structure.
+
+
+
+(Bugs):
+
+My code was dissapearing at times not allowing me to progress with this project as quickly as i would like it.
+
+CREDITS:
+
+(Code):
+
+The Faq section was copied from a youtube video called "how to make a faq section using html and css"
+
+(Content):
+
+-All content was created by the developer.
+
+(Acknowledgments):
+
+-The tutor from Kerry College has been very helpful.
